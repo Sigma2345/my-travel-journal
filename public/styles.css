@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Inter', sans-serif; 
+
+}
+
+
+.nav{
+    display: flex;
+    background-color: #F55A5A ;
+    padding: 30px 40px;
+}
+
+.nav--title{
+    margin: auto ;  
+    color:white ; 
+}
+
+.nav--image{
+    width: 20px; 
+}
+
+.card{
+    display: flex;
+    padding: 40px 80px ;   
+}
+
+.card--image{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card--text{
+    padding: 10px 20px ;
+}
+
+.card--location{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    padding: 0px 15px 0px 5px; 
+    color: #2B283A;
+
+}
+
+.card--link{
+    font-style: normal;
+    font-weight: 400;
+    font-size:small; 
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    color: #918E9B;
+}
+
+.card-loc-link{
+    display: flex;
+    padding: 10px 0px; 
+}
+
+
+.card--title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2B283A;
+    padding-bottom: 20px;
+}
+
+.card--schedule{
+        
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.5px;
+    line-height: 12px;
+    padding: 10px 0px 10px 0px ; 
+    color: #2B283A;
+}
+
+.card--description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    width:326px ;
+    color: #2B283A;
+}
+
+.placeholder{
+    width: 15px; 
+}
